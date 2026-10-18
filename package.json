@@ -1,13 +1,22 @@
 {
   "name": "MovieMania",
   "version": "0.0.1",
+  "description": "MovieVerse - React Native Movie & TV Show Discovery App",
+  "author": "Krishna Sahni <0NYX07@users.noreply.github.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/0NYX07/MovieVerse.git"
+  },
+  "homepage": "https://github.com/0NYX07/MovieVerse#readme",
   "private": true,
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
     "start": "react-native start",
-    "test": "jest"
+    "test": "jest",
+    "clean": "react-native clean"
   },
   "dependencies": {
     "@react-native-async-storage/async-storage": "^2.1.0",
