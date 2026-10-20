@@ -8,8 +8,8 @@ import { Show } from '../types';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 
 type DetailsScreenRouteProp =
-  | StackNavigationProp<HomeStackParamList, 'Details'>
-  | StackNavigationProp<SearchStackParamList, 'Details'>;
+  | RouteProp<HomeStackParamList, 'Details'>
+  | RouteProp<SearchStackParamList, 'Details'>;
 
 interface Props {
   route: DetailsScreenRouteProp;
