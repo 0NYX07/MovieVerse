@@ -1,0 +1,27 @@
+# Auto detect text files and perform LF normalization
+* text=auto eol=lf
+
+# Explicitly declare text files you want to always be normalized and converted to native line endings on checkout
+*.ts text
+*.tsx text
+*.js text
+*.json text
+*.md text
+*.xml text
+*.gradle text
+*.properties text
+
+# Windows shell scripts
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Unix shell scripts
+*.sh text eol=lf
+gradlew text eol=lf
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.keystore binary
+*.jar binary
